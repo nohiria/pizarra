@@ -1,0 +1,41 @@
+* {
+    margin:0;
+    background-color: #EAEAEA;
+}
+.container{
+    margin: 5% 5% 5px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+}
+
+#area_de_dibujo{
+    background-color: #FFF;
+}
+
+.campo_presentacion{
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: grid;
+    grid-template-rows: auto;
+    margin: auto;
+    width: 250px;
+    text-align: center;
+    gap: 30px;
+}
+
+.card img{
+    width: 240px;
+}
+
+.card p{
+    text-align: center;
+    color: #353943;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+}
